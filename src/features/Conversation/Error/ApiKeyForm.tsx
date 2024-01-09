@@ -74,7 +74,7 @@ const APIKeyForm = memo<{ id: string }>(({ id }) => {
         <Button
           block
           onClick={() => {
-            window.location.href = 'https://taobao.com/your_product_link'; // 在这里填入你的商品链接
+            window.location.href = 'https://m.tb.cn/h.5KcxWsObx76tsRE?tk=Abm3WhtkmW4'; // 在这里填入你的商品链接
           }}
           style={{ marginTop: 8 }}
           type={'primary'}
