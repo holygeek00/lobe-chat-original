@@ -75,5 +75,6 @@ export default {
       placeholder: '请输入密码',
       title: '输入密码解锁应用',
     },
+    purchase: '确认购买',
   },
 };

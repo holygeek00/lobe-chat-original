@@ -72,6 +72,16 @@ const APIKeyForm = memo<{ id: string }>(({ id }) => {
           {t('unlock.confirm')}
         </Button>
         <Button
+          block
+          onClick={() => {
+            window.location.href = 'https://taobao.com/your_product_link'; // 在这里填入你的商品链接
+          }}
+          style={{ marginTop: 8 }}
+          type={'primary'}
+        >
+          {t('unlock.confirm')}
+        </Button>
+        <Button
           onClick={() => {
             deleteMessage(id);
           }}
