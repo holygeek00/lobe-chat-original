@@ -79,7 +79,7 @@ const APIKeyForm = memo<{ id: string }>(({ id }) => {
           style={{ marginTop: 8 }}
           type={'primary'}
         >
-          {t('unlock.confirm')}
+          {t('unlock.purchase')}
         </Button>
         <Button
           onClick={() => {
