@@ -37,6 +37,9 @@ export const createBizOpenAI = (req: Request, model: string): Response | OpenAI 
     if ((error as Error).cause === ChatErrorType.NoAPIKey) {
       return createErrorResponse(ChatErrorType.NoAPIKey);
     }
+    if ((error as Error).cause === 401) {
+      return createErrorResponse(ChatErrorType.NoAPIKey);
+    }
 
     console.error(error); // log error to trace it
     return createErrorResponse(ChatErrorType.InternalServerError);
