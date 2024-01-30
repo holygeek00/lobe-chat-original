@@ -13,6 +13,7 @@
   "close": "Kapat",
   "confirmRemoveSessionItemAlert": "Bu asistanı silmek üzeresiniz. Silindikten sonra geri alınamaz. Lütfen eyleminizi onaylayın.",
   "copy": "Kopyala",
+  "copyFail": "Kopyalama başarısız oldu",
   "copySuccess": "Kopyalama Başarılı",
   "defaultAgent": "Varsayılan Asistan",
   "defaultSession": "Varsayılan Asistan",
@@ -43,6 +44,7 @@
       "added": "Başarıyla içe aktarıldı",
       "errors": "İçe Aktarma Hataları",
       "messages": "Mesajlar",
+      "sessionGroups": "Gruplar",
       "sessions": "Asistanlar",
       "skips": "Geç",
       "topics": "Konular",
@@ -51,6 +53,7 @@
     "title": "Veri İçe Aktar"
   },
   "lang": {
+    "ar": "Arapça",
     "bn": "Bengalce",
     "cs-CZ": "Çekçe",
     "da-DK": "Danca",

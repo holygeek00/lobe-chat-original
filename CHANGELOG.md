@@ -2,6 +2,389 @@
 
 # Changelog
 
+### [Version 0.122.2](https://github.com/lobehub/lobe-chat/compare/v0.122.1...v0.122.2)
+
+<sup>Released on **2024-01-30**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix unexpected topic switch when favoriting topic.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix unexpected topic switch when favoriting topic, closes [#1186](https://github.com/lobehub/lobe-chat/issues/1186) ([ab4de13](https://github.com/lobehub/lobe-chat/commit/ab4de13))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.122.1](https://github.com/lobehub/lobe-chat/compare/v0.122.0...v0.122.1)
+
+<sup>Released on **2024-01-29**</sup>
+
+#### 💄 Styles
+
+- **misc**: Fix antd tab width flicker when show function debug.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Fix antd tab width flicker when show function debug, closes [#1171](https://github.com/lobehub/lobe-chat/issues/1171) ([14e99d2](https://github.com/lobehub/lobe-chat/commit/14e99d2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 0.122.0](https://github.com/lobehub/lobe-chat/compare/v0.121.4...v0.122.0)
+
+<sup>Released on **2024-01-29**</sup>
+
+#### ✨ Features
+
+- **misc**: Add create agent action in group menu.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add create agent action in group menu, closes [#1177](https://github.com/lobehub/lobe-chat/issues/1177) ([17ec1eb](https://github.com/lobehub/lobe-chat/commit/17ec1eb))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.121.4](https://github.com/lobehub/lobe-chat/compare/v0.121.3...v0.121.4)
+
+<sup>Released on **2024-01-29**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Pin ahooks to fix test ci and settings crash.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Pin ahooks to fix test ci and settings crash, closes [#1178](https://github.com/lobehub/lobe-chat/issues/1178) ([bc223a4](https://github.com/lobehub/lobe-chat/commit/bc223a4))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.121.3](https://github.com/lobehub/lobe-chat/compare/v0.121.2...v0.121.3)
+
+<sup>Released on **2024-01-26**</sup>
+
+#### 💄 Styles
+
+- **misc**: Improve stop loading icon.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Improve stop loading icon, closes [#1154](https://github.com/lobehub/lobe-chat/issues/1154) ([6444fc2](https://github.com/lobehub/lobe-chat/commit/6444fc2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.121.2](https://github.com/lobehub/lobe-chat/compare/v0.121.1...v0.121.2)
+
+<sup>Released on **2024-01-25**</sup>
+
+#### 💄 Styles
+
+- **misc**: Remove centered prop from CreateGroupModal.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Remove centered prop from CreateGroupModal, closes [#1146](https://github.com/lobehub/lobe-chat/issues/1146) ([7b01676](https://github.com/lobehub/lobe-chat/commit/7b01676))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.121.1](https://github.com/lobehub/lobe-chat/compare/v0.121.0...v0.121.1)
+
+<sup>Released on **2024-01-24**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Automatically fill in the wrong password.
+
+#### 💄 Styles
+
+- **misc**: Fix default plugins height unstabled when scrolling.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Automatically fill in the wrong password, closes [#1144](https://github.com/lobehub/lobe-chat/issues/1144) ([0159a1a](https://github.com/lobehub/lobe-chat/commit/0159a1a))
+
+#### Styles
+
+- **misc**: Fix default plugins height unstabled when scrolling, closes [#1142](https://github.com/lobehub/lobe-chat/issues/1142) ([abed417](https://github.com/lobehub/lobe-chat/commit/abed417))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 0.121.0](https://github.com/lobehub/lobe-chat/compare/v0.120.6...v0.121.0)
+
+<sup>Released on **2024-01-24**</sup>
+
+#### ✨ Features
+
+- **misc**: Add session group manager.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add session group manager, closes [#1055](https://github.com/lobehub/lobe-chat/issues/1055) [#1045](https://github.com/lobehub/lobe-chat/issues/1045) [#1126](https://github.com/lobehub/lobe-chat/issues/1126) [#1120](https://github.com/lobehub/lobe-chat/issues/1120) ([e3281fc](https://github.com/lobehub/lobe-chat/commit/e3281fc))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.120.6](https://github.com/lobehub/lobe-chat/compare/v0.120.5...v0.120.6)
+
+<sup>Released on **2024-01-22**</sup>
+
+#### 💄 Styles
+
+- **misc**: Fix share image tags not align.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Fix share image tags not align, closes [#1047](https://github.com/lobehub/lobe-chat/issues/1047) ([28206b6](https://github.com/lobehub/lobe-chat/commit/28206b6))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.120.5](https://github.com/lobehub/lobe-chat/compare/v0.120.4...v0.120.5)
+
+<sup>Released on **2024-01-21**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update locale and add test for globalStore.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update locale and add test for globalStore, closes [#1119](https://github.com/lobehub/lobe-chat/issues/1119) ([4545cf0](https://github.com/lobehub/lobe-chat/commit/4545cf0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.120.4](https://github.com/lobehub/lobe-chat/compare/v0.120.3...v0.120.4)
+
+<sup>Released on **2024-01-21**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Refactor url state management and fix some detail experience.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Refactor url state management and fix some detail experience, closes [#1117](https://github.com/lobehub/lobe-chat/issues/1117) ([a355d2c](https://github.com/lobehub/lobe-chat/commit/a355d2c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.120.3](https://github.com/lobehub/lobe-chat/compare/v0.120.2...v0.120.3)
+
+<sup>Released on **2024-01-19**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor antd i18n and improve locale order.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor antd i18n and improve locale order, closes [#1103](https://github.com/lobehub/lobe-chat/issues/1103) [#1083](https://github.com/lobehub/lobe-chat/issues/1083) ([c89f527](https://github.com/lobehub/lobe-chat/commit/c89f527))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.120.2](https://github.com/lobehub/lobe-chat/compare/v0.120.1...v0.120.2)
+
+<sup>Released on **2024-01-17**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix setPluginMessage can not stop create ai message.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix setPluginMessage can not stop create ai message, closes [#1078](https://github.com/lobehub/lobe-chat/issues/1078) ([67de28d](https://github.com/lobehub/lobe-chat/commit/67de28d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.120.1](https://github.com/lobehub/lobe-chat/compare/v0.120.0...v0.120.1)
+
+<sup>Released on **2024-01-16**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix list scrolling white screen on mobile.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix list scrolling white screen on mobile, closes [#1072](https://github.com/lobehub/lobe-chat/issues/1072) ([af10947](https://github.com/lobehub/lobe-chat/commit/af10947))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 0.120.0](https://github.com/lobehub/lobe-chat/compare/v0.119.13...v0.120.0)
+
+<sup>Released on **2024-01-15**</sup>
+
+#### ✨ Features
+
+- **misc**: Adding Arabic Language Support.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Adding Arabic Language Support, closes [#1049](https://github.com/lobehub/lobe-chat/issues/1049) ([a325ef9](https://github.com/lobehub/lobe-chat/commit/a325ef9))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 0.119.13](https://github.com/lobehub/lobe-chat/compare/v0.119.12...v0.119.13)
 
 <sup>Released on **2024-01-10**</sup>

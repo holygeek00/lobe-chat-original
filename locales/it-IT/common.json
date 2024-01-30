@@ -13,6 +13,7 @@
   "close": "Chiudi",
   "confirmRemoveSessionItemAlert": "Stai per eliminare questo assistente. Una volta eliminato, non sarà possibile recuperarlo. Confermi l'operazione?",
   "copy": "Copia",
+  "copyFail": "Copia non riuscita",
   "copySuccess": "Copia riuscita",
   "defaultAgent": "Assistente predefinito",
   "defaultSession": "Sessione predefinita",
@@ -43,6 +44,7 @@
       "added": "Importazione riuscita",
       "errors": "Errori di importazione",
       "messages": "Messaggi",
+      "sessionGroups": "Gruppi di sessione",
       "sessions": "Sessioni",
       "skips": "Elementi saltati",
       "topics": "Argomenti",
@@ -51,6 +53,7 @@
     "title": "Importa dati"
   },
   "lang": {
+    "ar": "Arabo",
     "bn": "Bengalese",
     "cs-CZ": "Ceco",
     "da-DK": "Danese",

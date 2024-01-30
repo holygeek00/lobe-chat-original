@@ -1,3 +1,7 @@
+import { AppRouterInstance } from 'next/dist/shared/lib/app-router-context.shared-runtime';
+
+import { SessionDefaultGroup, SessionGroupId } from '@/types/session';
+
 export enum SidebarTabKey {
   Chat = 'chat',
   Market = 'market',
@@ -17,11 +21,13 @@ export interface Guide {
 }
 
 export interface GlobalPreference {
+  // which sessionGroup should expand
+  expandSessionGroupKeys: SessionGroupId[];
   guide?: Guide;
   inputHeight: number;
   mobileShowTopic?: boolean;
-  sessionGroupKeys: string[];
   sessionsWidth: number;
+
   showChatSideBar?: boolean;
   showSessionPanel?: boolean;
   showSystemRole?: boolean;
@@ -33,22 +39,25 @@ export interface GlobalPreference {
 
 export interface GlobalCommonState {
   hasNewVersion?: boolean;
+  isMobile?: boolean;
   latestVersion?: string;
   /**
    *  用户偏好的 UI 状态
    *  @localStorage
    */
   preference: GlobalPreference;
+  router?: AppRouterInstance;
   settingsTab: SettingsTabs;
   sidebarKey: SidebarTabKey;
 }
 
 export const initialCommonState: GlobalCommonState = {
+  isMobile: false,
   preference: {
+    expandSessionGroupKeys: [SessionDefaultGroup.Pinned, SessionDefaultGroup.Default],
     guide: {},
     inputHeight: 200,
     mobileShowTopic: false,
-    sessionGroupKeys: ['pinned', 'sessionList'],
     sessionsWidth: 320,
     showChatSideBar: true,
     showSessionPanel: true,

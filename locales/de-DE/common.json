@@ -13,6 +13,7 @@
   "close": "Schließen",
   "confirmRemoveSessionItemAlert": "Möchten Sie diesen Assistenten wirklich löschen? Nach dem Löschen kann er nicht wiederhergestellt werden. Bitte bestätigen Sie Ihre Aktion.",
   "copy": "Kopieren",
+  "copyFail": "Kopieren fehlgeschlagen",
   "copySuccess": "Kopieren erfolgreich",
   "defaultAgent": "Standardassistent",
   "defaultSession": "Standardassistent",
@@ -43,6 +44,7 @@
       "added": "Erfolgreich importiert",
       "errors": "Fehler beim Import",
       "messages": "Nachrichten",
+      "sessionGroups": "Sitzungsgruppen",
       "sessions": "Assistenten",
       "skips": "Übersprungen (doppelt)",
       "topics": "Themen",
@@ -51,6 +53,7 @@
     "title": "Daten importieren"
   },
   "lang": {
+    "ar": "Arabisch",
     "bn": "Bengalisch",
     "cs-CZ": "Tschechisch",
     "da-DK": "Dänisch",

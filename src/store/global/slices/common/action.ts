@@ -3,6 +3,8 @@ import { gt } from 'semver';
 import useSWR, { SWRResponse } from 'swr';
 import type { StateCreator } from 'zustand/vanilla';
 
+import { INBOX_SESSION_ID } from '@/const/session';
+import { SESSION_CHAT_URL } from '@/const/url';
 import { CURRENT_VERSION } from '@/const/version';
 import { globalService } from '@/services/global';
 import type { GlobalStore } from '@/store/global';
@@ -18,12 +20,14 @@ const n = setNamespace('settings');
  * 设置操作
  */
 export interface CommonAction {
+  switchBackToChat: (sessionId?: string) => void;
   /**
    * 切换侧边栏选项
    * @param key - 选中的侧边栏选项
    */
   switchSideBar: (key: SidebarTabKey) => void;
   toggleChatSideBar: (visible?: boolean) => void;
+  toggleExpandSessionGroup: (id: string, expand: boolean) => void;
   toggleMobileTopic: (visible?: boolean) => void;
   toggleSystemRole: (visible?: boolean) => void;
   updateGuideState: (guide: Partial<Guide>) => void;
@@ -38,6 +42,9 @@ export const createCommonSlice: StateCreator<
   [],
   CommonAction
 > = (set, get) => ({
+  switchBackToChat: (sessionId) => {
+    get().router?.push(SESSION_CHAT_URL(sessionId || INBOX_SESSION_ID, get().isMobile));
+  },
   switchSideBar: (key) => {
     set({ sidebarKey: key }, false, n('switchSideBar', key));
   },
@@ -46,6 +53,19 @@ export const createCommonSlice: StateCreator<
       typeof newValue === 'boolean' ? newValue : !get().preference.showChatSideBar;
 
     get().updatePreference({ showChatSideBar }, n('toggleAgentPanel', newValue) as string);
+  },
+  toggleExpandSessionGroup: (id, expand) => {
+    const { preference } = get();
+    const nextExpandSessionGroup = produce(preference.expandSessionGroupKeys, (draft) => {
+      if (expand) {
+        if (draft.includes(id)) return;
+        draft.push(id);
+      } else {
+        const index = draft.indexOf(id);
+        if (index !== -1) draft.splice(index, 1);
+      }
+    });
+    get().updatePreference({ expandSessionGroupKeys: nextExpandSessionGroup });
   },
   toggleMobileTopic: (newValue) => {
     const mobileShowTopic =

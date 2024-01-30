@@ -13,6 +13,7 @@
   "close": "關閉",
   "confirmRemoveSessionItemAlert": "即將刪除此助手，刪除後將無法復原，請確認您的操作",
   "copy": "複製",
+  "copyFail": "複製失敗",
   "copySuccess": "複製成功",
   "defaultAgent": "預設助手",
   "defaultSession": "預設助手",
@@ -43,6 +44,7 @@
       "added": "匯入成功",
       "errors": "匯入出錯",
       "messages": "訊息",
+      "sessionGroups": "會話分組",
       "sessions": "助手",
       "skips": "重複跳過",
       "topics": "話題",
@@ -51,6 +53,7 @@
     "title": "匯入資料"
   },
   "lang": {
+    "ar": "阿拉伯語",
     "bn": "孟加拉語",
     "cs-CZ": "捷克語",
     "da-DK": "丹麥語",
